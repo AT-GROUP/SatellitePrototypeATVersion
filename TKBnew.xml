@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<knowledge-base creation-date="11.04.2013 23:59:11">
+    <problem-info/>
+    <types>
+	<type id="ТИП1" meta="number" desc="число">
+            <from>0</from>
+            <to>5000</to>
+        </type>
+        <type id="ТИП2" meta="string" desc="строка">
+        </type>
+    </types>
+    <classes>
+        <class id="КЛАСС1" desc="Спутник">
+            <properties>
+                <property id="name" type="ТИП2" desc="name" source="inferred"/>
+                <property id="maxBw" type="ТИП1" desc="maxBw" source="inferred"/>
+                <property id="avalBw" type="ТИП1" desc="avalBw" source="inferred"/>
+                <property id="stationCount" type="ТИП1" desc="stationCount" source="inferred"/>
+                <property id="status" type="ТИП2" desc="status" source="inferred"/>
+            </properties>
+        </class>
+        <class id="КЛАСС2" desc="Станция">
+            <properties>
+                <property id="name" type="ТИП2" desc="name" source="inferred"/>
+                <property id="bwInUse" type="ТИП1" desc="bwInUse" source="inferred"/>
+                <property id="bwNeeded" type="ТИП1" desc="bwNeeded" source="inferred"/>
+                <property id="satellite" type="ТИП1" desc="satellite" source="inferred"/>
+                <property id="status" type="ТИП2" desc="status" source="inferred"/>
+            </properties>
+        </class>
+        <class id="world" desc="Класс верхнего уровня, включающий в себя экземпляры других классов и общие правила">
+            <properties>
+                <property id="Intelsat" type="КЛАСС1" source="none" create="true" desc="экземпляр класса спутник"/>
+		<property id="Station1" type="КЛАСС2" source="none" create="true" desc="экземпляр класса станция"/>
+            </properties>
+            <rules>
+                <rule id="1" meta="simple" desc="rule1">
+                    <condition>
+                        <and>
+                            <EvRel Value="e">
+                                <Event Name = "E1"/>
+                                <Event Name = "E2"/>
+                            </EvRel>
+                            <eq>
+                                <ref id="Intelsat">
+                                    <ref id="stationCount"/>
+                                </ref>
+                                <value>3</value>
+                                <with belief="50" probability="100" accuracy="0"/>
+                            </eq>
+                        </and>
+                    </condition>
+                    <action>
+                        <assign>
+                            <ref id="Station1">
+                                <ref id="name"/>
+                            </ref>
+                            <value>ASDF</value>
+                            <with belief="50" probability="100" accuracy="0"/>
+                        </assign>
+                    </action>
+                </rule>
+				<rule id="2" meta="simple" desc="rule2">
+                    <condition>
+                        <EvRel Value="e">
+                            <Event Name = "E1"/>
+                            <Event Name = "E2"/>
+                        </EvRel>
+                    </condition>
+                    <action>
+                        <assign>
+                            <ref id="Station1">
+                                <ref id="name"/>
+                            </ref>
+                            <value>ASDF</value>
+                            <with belief="50" probability="100" accuracy="0"/>
+                        </assign>
+                    </action>
+                </rule>
+            </rules>
+        </class>
+    </classes>
+</knowledge-base>

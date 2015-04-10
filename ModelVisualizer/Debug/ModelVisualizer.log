@@ -1,0 +1,30 @@
+﻿Сборка начата 03.06.2014 23:06:32.
+Проект "E:\Diplom\AT-SHELL - копия\ModelVisualizer\ModelVisualizer.vcxproj" в узле 2 (целевые объекты Rebuild).
+CustomBuild:
+  Moc'ing InfoTableModel.h...
+  Moc'ing ModelVisualizer.h...
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtCore /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\ModelVisualizer\InfoTableModel.cpp ..\src\ModelVisualizer\ModelVisualizer.cpp ..\src\ModelVisualizer\QSatelliteItem.cpp ..\src\ModelVisualizer\QStationItem.cpp GeneratedFiles\Debug\moc_InfoTableModel.cpp GeneratedFiles\Debug\moc_ModelVisualizer.cpp
+  InfoTableModel.cpp
+  ModelVisualizer.cpp
+  QSatelliteItem.cpp
+  QStationItem.cpp
+  moc_InfoTableModel.cpp
+  moc_ModelVisualizer.cpp
+  Создание кода...
+e:\diplom\at-shell - копия\src\modelvisualizer\modelvisualizer.cpp(149): warning C4715: ModelVisualizer::parseFacts: значение возвращается не при всех путях выполнения
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(E:\Diplom\AT-SHELL - копия\Win32\Debug\ModelVisualizer.dll) does not match the Linker's OutputFile property value (E:\Diplom\AT-SHELL - копия\Win32\Debug\ModelVisualizer.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1138,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Diplom\AT-SHELL - копия\Win32\Debug\\ModelVisualizer.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Diplom\AT-SHELL - копия\Win32\Debug\ModelVisualizer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Diplom\AT-SHELL - копия\Win32\Debug\ModelVisualizer.lib" /MACHINE:X86 /SAFESEH /DLL Debug\InfoTableModel.obj
+  Debug\ModelVisualizer.obj
+  Debug\QSatelliteItem.obj
+  Debug\QStationItem.obj
+  Debug\moc_InfoTableModel.obj
+  Debug\moc_ModelVisualizer.obj
+  ModelVisualizer.vcxproj -> E:\Diplom\AT-SHELL - копия\Win32\Debug\ModelVisualizer.dll
+Построение проекта "E:\Diplom\AT-SHELL - копия\ModelVisualizer\ModelVisualizer.vcxproj" завершено (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:18.45

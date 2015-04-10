@@ -1,0 +1,75 @@
+ImageRuntimeVersion: v2.0.50727
+Assembly TemporalReasonerX, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec192b9d7d5345a6: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AT_DynamicPlanner.DPlanner: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[System.String]] ClassesDic : Public
+    System.Collections.Generic.Dictionary`2[System.String,System.String] CurrentData : Public
+    System.Collections.Generic.Dictionary`2[System.String,System.String] PreviousData : Public
+    System.Collections.Generic.List`1[System.Xml.Linq.XElement] GeneralRules : Public
+    System.Collections.Generic.List`1[System.Xml.Linq.XElement] PrivateRules : Public
+    System.Collections.Generic.List`1[System.Xml.Linq.XElement] Rules : Public
+    AT_TemporalReasoner.TemporalReasoner TReasoner : Public
+    Int32 StepNum : Public
+  Methods:
+    LoadTKB(String): PrivateScope, Public, HideBySig
+    LoadData(): PrivateScope, Public, HideBySig
+    LoadRules(): PrivateScope, Public, HideBySig
+    RuleWork(): PrivateScope, Public, HideBySig
+    SaveModelToFile(String): PrivateScope, Public, HideBySig
+Interface MProgram.ITemporalReasoner: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String Name 'get set' : 
+    System.Object Broker 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Name(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Configurate(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Broker(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Broker(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    ProcessMessage(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class MProgram.TemporalReasonerX: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    MProgram.ITemporalReasoner
+  Properties:
+    System.Object Broker 'get set' : 
+    System.String Name 'get set' : 
+  Methods:
+    get_Broker(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Broker(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Name(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Name(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Configurate(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    TestMethod(): PrivateScope, Public, HideBySig
+    ProcessMessage(String, String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Stop(): PrivateScope, Public, HideBySig
+Class AT_TemporalReasoner.TemporalReasoner: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[System.Int32]] Events : Public
+    System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[AT_TemporalReasoner.TemporalReasoner+StartFinishTime]] intervalsTimes : Public
+    System.Xml.Linq.XDocument AllenDoc : Public
+  Methods:
+    UpdateIntervalsEventsTime(Dictionary`2, Int32): PrivateScope, Public, HideBySig
+    EvalAllenRules(List`1, Int32): PrivateScope, Public, HideBySig
+    setTruthVal(XElement, String): PrivateScope, Public, HideBySig
+    EvalWhen(XElement, Int32): PrivateScope, Public, HideBySig
+    EvalWheneverNew(XElement, Dictionary`2, Dictionary`2, Int32): PrivateScope, Public, HideBySig
+    EvalWhenever(XElement, Dictionary`2, Dictionary`2): PrivateScope, Public, HideBySig
+    EvalRules(List`1, Dictionary`2, Dictionary`2, Int32): PrivateScope, Public, HideBySig
+    EvalGeneral(XElement, Dictionary`2): PrivateScope, Public, HideBySig
+Struct AT_TemporalReasoner.TemporalReasoner+StartFinishTime: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 S : Public
+    Int32 F : Public

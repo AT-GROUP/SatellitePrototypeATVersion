@@ -1,0 +1,14 @@
+scenario Main;
+  execute ЗапускРешателяПрямой;
+  send concat('output ', string(concat('Заключение"', #Intelsat.StationCount#, '"')), 'as String on Left') to Informer;
+  send 'activate' to Informer;
+  execute Выход;
+end;
+
+subscenario Выход;
+  stop;
+end;
+
+subscenario ЗапускРешателяПрямой;   
+  send '<message ProcName="TSolve"/>' to ESKernel;  
+end;

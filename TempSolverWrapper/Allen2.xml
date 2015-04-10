@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IntervalsAndEvents>
+<Intervals>
+<Interval Name="A">
+  <Open>
+      <EqOp Value="le">
+        <Attribute Value="Участок_дороги_1.Протяженность"/>
+        <Number Value="5"/>
+      </EqOp>    
+  </Open>
+  <Close>
+      <EqOp Value="gt">
+        <Attribute Value="Реанимобиль_1.Скорость_езды"/>
+        <Number Value="10"/>
+      </EqOp>    
+  </Close>
+</Interval> 
+<Interval Name="B">
+  <Open>
+      <EqOp Value="le">
+        <Attribute Value="ОБЪЕКТ1.АТРИБУТ2"/>
+        <Number Value="10"/>
+      </EqOp>    
+  </Open>
+  <Close>
+      <EqOp Value="gt">
+        <Attribute Value="ОБЪЕКТ1.АТРИБУТ2"/>
+        <Number Value="10"/>
+      </EqOp>    
+  </Close>
+</Interval> 
+</Intervals>
+<Events>
+<Event Name="E1">
+  <Formula>
+      <EqOp Value="eq">
+        <Attribute Value="Участок_дороги_1.Протяженность"/>
+        <Number Value="0"/>
+      </EqOp>    
+  </Formula>
+</Event> 
+<Event Name="E2">
+  <Formula>
+      <EqOp Value="eq">
+        <Attribute Value="Участок_дороги_1.Протяженность"/>
+        <Number Value="0"/>
+      </EqOp>    
+  </Formula>
+</Event> 
+<Event Name="E3">
+  <Formula>
+      <EqOp Value="eq">
+        <Attribute Value="Участок_дороги_1.Протяженность"/>
+        <Number Value="0"/>
+      </EqOp>    
+  </Formula>
+</Event> 
+<Event Name="E4">
+  <Formula>
+      <EqOp Value="eq">
+        <Attribute Value="Участок_дороги_1.Протяженность"/>
+        <Number Value="0"/>
+      </EqOp>    
+  </Formula>
+</Event> 
+</Events>
+</IntervalsAndEvents>

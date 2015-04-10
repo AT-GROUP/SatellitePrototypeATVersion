@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IntervalsAndEvents>
+<Intervals>
+<Interval Name="A">
+  <Open>
+      <EqOp Value="gt">
+        <Attribute Value="Station1.bwInUse"/>
+        <Number Value="50"/>
+      </EqOp>    
+  </Open>
+  <Close>
+      <EqOp Value="le">
+        <Attribute Value="Station1.bwInUse"/>
+        <Number Value="50"/>
+      </EqOp>     
+  </Close>
+</Interval> 
+</Intervals> 
+<Events>
+<Event Name="E1">
+  <Formula>
+      <EqOp Value="gt">
+        <Attribute Value="Station1.bwInUse"/>
+        <Number Value="50"/>
+      </EqOp>    
+  </Formula>
+</Event>
+<Event Name="E2">
+  <Formula>
+      <EqOp Value="gt">
+        <Attribute Value="Station1.bwInUse"/>
+        <Number Value="0"/>
+      </EqOp>    
+  </Formula>
+</Event>  
+</Events>
+</IntervalsAndEvents>

@@ -1,0 +1,9 @@
+﻿C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "AMD64" and the processor architecture of the reference "TemporalReasonerX", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+  SolverWrapper.cpp
+h:\diplom\at-shell3\src\tempsolverwrapper\SolverWrapper.h(26): error C2470: 'SolverWrapper' : looks like a function definition, but there is no parameter list; skipping apparent body
+..\src\TempSolverWrapper\SolverWrapper.cpp(16): error C2653: 'SolverWrapper' : is not a class or namespace name
+..\src\TempSolverWrapper\SolverWrapper.cpp(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+..\src\TempSolverWrapper\SolverWrapper.cpp(18): error C3861: 'createManagedInstances': identifier not found
+..\src\TempSolverWrapper\SolverWrapper.cpp(19): warning C4508: 'SolverWrapper' : function should return a value; 'void' return type assumed
+..\src\TempSolverWrapper\SolverWrapper.cpp(21): error C2653: 'SolverWrapper' : is not a class or namespace name
+..\src\TempSolverWrapper\SolverWrapper.cpp(21): fatal error C1903: unable to recover from previous error(s); stopping compilation

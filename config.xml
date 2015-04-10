@@ -1,0 +1,15 @@
+<config>
+
+
+<object Name='ESKernel' Class='SolverXLib.SolverX'>
+<config>
+  <FileName>TKBnewforAT.xml</FileName>
+</config>
+</object>
+
+<message RcvrName='ESKernel'>
+	<message ProcName="TSolve"/>
+</message>
+
+
+</config>

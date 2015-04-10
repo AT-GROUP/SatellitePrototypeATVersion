@@ -1,0 +1,23 @@
+﻿Сборка начата 26.06.2014 10:40:30.
+Проект "E:\Diplom\AT-SHELL3\ATDynamicPrototype.vcxproj" в узле 2 (целевые объекты Build).
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Diplom\AT-SHELL3\Win32\Release\\ATDynamicPrototype.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5OpenGL.lib opengl32.lib glu32.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\Diplom\AT-SHELL3\Win32\Release\ATDynamicPrototype.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Diplom\AT-SHELL3\Win32\Release\ATDynamicPrototype.lib" /MACHINE:X86 /SAFESEH Release\moc_ATDynamicIESApp.obj
+  Release\main.obj
+  Release\ATDynamicIESApp.obj
+ATDynamicIESApp.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __thiscall SolverWrapper::SolverWrapper(void)" (__imp_??0SolverWrapper@@QAE@XZ) в функции "public: __thiscall ATDynamicIESApp::ATDynamicIESApp(int,char * * const)" (??0ATDynamicIESApp@@QAE@HQAPAD@Z)
+ATDynamicIESApp.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall SolverWrapper::processModelTact(void)" (__imp_?processModelTact@SolverWrapper@@QAEXXZ) в функции "public: virtual void __thiscall ATDynamicIESApp::reachNextState(void)" (?reachNextState@ATDynamicIESApp@@UAEXXZ)
+ATDynamicIESApp.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall SolverWrapper::processSolversTact(void)" (__imp_?processSolversTact@SolverWrapper@@QAEXXZ) в функции "public: virtual void __thiscall ATDynamicIESApp::reachNextState(void)" (?reachNextState@ATDynamicIESApp@@UAEXXZ)
+ATDynamicIESApp.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall SolverWrapper::configurate(void)" (__imp_?configurate@SolverWrapper@@QAEXXZ) в функции "public: __thiscall ATDynamicIESApp::ATDynamicIESApp(int,char * * const)" (??0ATDynamicIESApp@@QAE@HQAPAD@Z)
+ATDynamicIESApp.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __thiscall ModelVisualizer::ModelVisualizer(class QWidget *)" (__imp_??0ModelVisualizer@@QAE@PAVQWidget@@@Z) в функции "public: __thiscall ATDynamicIESApp::ATDynamicIESApp(int,char * * const)" (??0ATDynamicIESApp@@QAE@HQAPAD@Z)
+ATDynamicIESApp.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: virtual __thiscall ModelVisualizer::~ModelVisualizer(void)" (__imp_??1ModelVisualizer@@UAE@XZ) в функции "public: virtual void * __thiscall ModelVisualizer::`scalar deleting destructor'(unsigned int)" (??_GModelVisualizer@@UAEPAXI@Z)
+ATDynamicIESApp.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __thiscall ModelVisualizer::updateFromModelFile(void)" (__imp_?updateFromModelFile@ModelVisualizer@@QAEXXZ) в функции "public: virtual void __thiscall ATDynamicIESApp::reachNextState(void)" (?reachNextState@ATDynamicIESApp@@UAEXXZ)
+ATDynamicIESApp.obj : error LNK2001: неразрешенный внешний символ ""public: virtual struct QMetaObject const * __thiscall ModelVisualizer::metaObject(void)const " (?metaObject@ModelVisualizer@@UBEPBUQMetaObject@@XZ)"
+ATDynamicIESApp.obj : error LNK2001: неразрешенный внешний символ ""public: virtual int __thiscall ModelVisualizer::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@ModelVisualizer@@UAEHW4Call@QMetaObject@@HPAPAX@Z)"
+ATDynamicIESApp.obj : error LNK2001: неразрешенный внешний символ ""public: virtual void * __thiscall ModelVisualizer::qt_metacast(char const *)" (?qt_metacast@ModelVisualizer@@UAEPAXPBD@Z)"
+ATDynamicIESApp.obj : error LNK2001: неразрешенный внешний символ ""protected: virtual void __thiscall ModelVisualizer::wheelEvent(class QWheelEvent *)" (?wheelEvent@ModelVisualizer@@MAEXPAVQWheelEvent@@@Z)"
+E:\Diplom\AT-SHELL3\Win32\Release\\ATDynamicPrototype.exe : fatal error LNK1120: неразрешенных внешних элементов: 11
+Построение проекта "E:\Diplom\AT-SHELL3\ATDynamicPrototype.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+СБОЙ сборки.
+
+Затраченное время: 00:00:10.72

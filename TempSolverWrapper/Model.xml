@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bb>
+  <wm>
+    <facts>
+      <fact AttrPath="Участок_дороги_1.Название" asked="true" Value="Название1" Belief="100" />
+      <fact AttrPath="Участок_дороги_1.Протяженность" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Участок_дороги_1.Есть_обледенение" asked="true" Value="Нет" Belief="100" />
+      <fact AttrPath="Участок_дороги_1.ДТП" asked="true" Value="Нет" Belief="100" />
+      <fact AttrPath="БСМП_1.Статус" asked="true" Value="ожидает_вызова" Belief="100" />
+      <fact AttrPath="БСМП_1.Вместимость" asked="true" Value="1" Belief="100" />
+      <fact AttrPath="БСМП_1.Скорость_езды" asked="true" Value="60" Belief="100" />
+      <fact AttrPath="БСМП_1.Скорость_эвакуации_пострадавших" asked="true" Value="5" Belief="100" />
+      <fact AttrPath="БСМП_2.Статус" asked="true" Value="ожидает_вызова" Belief="100" />
+      <fact AttrPath="БСМП_2.Вместимость" asked="true" Value="1" Belief="100" />
+      <fact AttrPath="БСМП_2.Скорость_езды" asked="true" Value="60" Belief="100" />
+      <fact AttrPath="БСМП_2.Скорость_эвакуации_пострадавших" asked="true" Value="5" Belief="100" />
+      <fact AttrPath="БСМП_3.Статус" asked="true" Value="ожидает_вызова" Belief="100" />
+      <fact AttrPath="БСМП_3.Вместимость" asked="true" Value="1" Belief="100" />
+      <fact AttrPath="БСМП_3.Скорость_езды" asked="true" Value="60" Belief="100" />
+      <fact AttrPath="БСМП_3.Скорость_эвакуации_пострадавших" asked="true" Value="5" Belief="100" />
+      <fact AttrPath="БСМП_4.Статус" asked="true" Value="ожидает_вызова" Belief="100" />
+      <fact AttrPath="БСМП_4.Вместимость" asked="true" Value="1" Belief="100" />
+      <fact AttrPath="БСМП_4.Скорость_езды" asked="true" Value="60" Belief="100" />
+      <fact AttrPath="БСМП_4.Скорость_эвакуации_пострадавших" asked="true" Value="5" Belief="100" />
+      <fact AttrPath="БСМП_5.Статус" asked="true" Value="ожидает_вызова" Belief="100" />
+      <fact AttrPath="БСМП_5.Вместимость" asked="true" Value="1" Belief="100" />
+      <fact AttrPath="БСМП_5.Скорость_езды" asked="true" Value="60" Belief="100" />
+      <fact AttrPath="БСМП_5.Скорость_эвакуации_пострадавших" asked="true" Value="5" Belief="100" />
+      <fact AttrPath="БСМП_6.Статус" asked="true" Value="ожидает_вызова" Belief="100" />
+      <fact AttrPath="БСМП_6.Вместимость" asked="true" Value="1" Belief="100" />
+      <fact AttrPath="БСМП_6.Скорость_езды" asked="true" Value="60" Belief="100" />
+      <fact AttrPath="БСМП_6.Скорость_эвакуации_пострадавших" asked="true" Value="5" Belief="100" />
+      <fact AttrPath="Реанимобиль_1.Статус" asked="true" Value="ожидает_вызова" Belief="100" />
+      <fact AttrPath="Реанимобиль_1.Скорость_езды" asked="true" Value="60" Belief="100" />
+      <fact AttrPath="Реанимобиль_1.Скорость_эвакуации_пострадавших" asked="true" Value="5" Belief="100" />
+      <fact AttrPath="ДТП_1.Координата_х" asked="true" Value="20" Belief="100" />
+      <fact AttrPath="ДТП_1.Координата_b" asked="true" Value="30" Belief="100" />
+      <fact AttrPath="ДТП_1.Ожидающие_госпитализации" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="ДТП_1.Пострадавшие_в_критическом_состоянии" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="ДТП_1.Информация_о_ДТП" asked="true" Value="Нет" Belief="100" />
+      <fact AttrPath="ДТП_1.Количество_легковых_машин_на_эвакуацию" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="ДТП_1.Количество_грузовых_машин_на_эвакуацию" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Статистика_1.Количество_госпитализированных" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Статистика_1.Количество_эвакуированных_легковых_машин" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Статистика_1.Количество_эвакуированных_грузовых_машин" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Статистика_1.Количество_ДТП" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Эвакуатор_1.Скорость_эвакуирования" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Эвакуатор_1.Грузопдъемность" asked="true" Value="1000" Belief="100" />
+      <fact AttrPath="Эвакуатор_1.Положение" asked="true" Value="на_стоянке" Belief="100" />
+      <fact AttrPath="Эвакуатор_2.Скорость_эвакуирования" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Эвакуатор_2.Грузопдъемность" asked="true" Value="1000" Belief="100" />
+      <fact AttrPath="Эвакуатор_2.Положение" asked="true" Value="на_стоянке" Belief="100" />
+      <fact AttrPath="Эвакуатор_3.Скорость_эвакуирования" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Эвакуатор_3.Грузопдъемность" asked="true" Value="10000" Belief="100" />
+      <fact AttrPath="Эвакуатор_3.Положение" asked="true" Value="на_стоянке" Belief="100" />
+      <fact AttrPath="Эвакуатор_4.Скорость_эвакуирования" asked="true" Value="0" Belief="100" />
+      <fact AttrPath="Эвакуатор_4.Грузопдъемность" asked="true" Value="10000" Belief="100" />
+      <fact AttrPath="Эвакуатор_4.Положение" asked="true" Value="на_стоянке" Belief="100" />
+    </facts>
+    <rules>
+      <rule name="1" oznach="0" />
+    </rules>
+  </wm>
+  <explanations>
+    <initial-situation>
+      <setup Style="forward" Subdialogs="true" Authentic="false" />
+      <facts>
+        <fact AttrPath="Участок_дороги_1.Протяженность" asked="true" Value="0" Belief="100" />
+      </facts>
+    </initial-situation>
+    <trace>
+      <step>1</step>
+      <rule id="1" rate="0" then="true">
+        <object addr="$044A5A38" type="world" />
+        <condition>
+          <value>1</value>
+          <with belief="0" probability="0" />
+        </condition>
+      </rule>
+    </trace>
+  </explanations>
+  <temporalModel StepNum="27">
+    <events>
+      <eventTimes Name="E4">0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27</eventTimes>
+      <eventTimes Name="E1">15 16 17 18 19 20 21 26 27</eventTimes>
+      <eventTimes Name="E2">15 16 17 18 19 20 21 22 23 24 25 26 27</eventTimes>
+      <eventTimes Name="E3">15 16 17 18 19 20 21 22 23 24 25 26 27</eventTimes>
+    </events>
+    <intervals>
+      <intervalTimes Name="A">(-1, -1);(0, -1)</intervalTimes>
+      <intervalTimes Name="B">(-1, -1)</intervalTimes>
+    </intervals>
+  </temporalModel>
+</bb>

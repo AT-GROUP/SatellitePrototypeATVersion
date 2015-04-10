@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SolverWrapper">
+    <Position X="1.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAQAABAAAAAAAAAAAAAAIBABACAEAAAA=</HashCode>
+      <FileName>E:\Diplom\AT-SHELL3\src\TempSolverWrapper\SolverWrapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ManagedHolder&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\Diplom\AT-SHELL3\src\TempSolverWrapper\SolverWrapper.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft Sans Serif" Size="8.25" />
+</ClassDiagram>

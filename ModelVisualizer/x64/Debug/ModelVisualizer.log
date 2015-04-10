@@ -1,0 +1,3 @@
+﻿     Creating library H:\Diplom\AT-SHELL3\x64\Debug\ModelVisualizer.lib and object H:\Diplom\AT-SHELL3\x64\Debug\ModelVisualizer.exp
+qtmaind.lib(qtmain_win.obj) : error LNK2019: unresolved external symbol main referenced in function WinMain
+H:\Diplom\AT-SHELL3\x64\Debug\\ModelVisualizer.exe : fatal error LNK1120: 1 unresolved externals

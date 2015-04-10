@@ -1,0 +1,20 @@
+﻿Сборка начата 14.05.2014 0:53:50.
+Проект "E:\diplom\AT-SHELL\TempSolverWrapper\TempSolverWrapper.vcxproj" в узле 2 (целевые объекты Rebuild).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D "INTEROPBRIDGE_API=__declspec(dllexport)" /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /FU"E:\diplom\AT-SHELL\TempSolverWrapper\TemporalReasonerX.dll" /FUInterop\Interop.SolverXLib.1.0.dll /analyze- /errorReport:prompt /clr:nostdlib ..\src\TempSolverWrapper\AssemblyInfo.cpp ..\src\TempSolverWrapper\TempSolverWrapper.cpp
+  AssemblyInfo.cpp
+  TempSolverWrapper.cpp
+  Создание кода...
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D "INTEROPBRIDGE_API=__declspec(dllexport)" /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Zexir\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\diplom\AT-SHELL\Debug\TempSolverWrapper.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\diplom\AT-SHELL\Debug\TempSolverWrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\AssemblyInfo.obj
+  Debug\TempSolverWrapper.obj
+  "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     Создается библиотека E:\diplom\AT-SHELL\Debug\TempSolverWrapper.lib и объект E:\diplom\AT-SHELL\Debug\TempSolverWrapper.exp
+  TempSolverWrapper.vcxproj -> E:\diplom\AT-SHELL\Debug\TempSolverWrapper.dll
+Построение проекта "E:\diplom\AT-SHELL\TempSolverWrapper\TempSolverWrapper.vcxproj" завершено (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:06.20

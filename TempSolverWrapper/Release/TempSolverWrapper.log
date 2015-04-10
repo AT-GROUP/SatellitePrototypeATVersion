@@ -1,0 +1,17 @@
+﻿Сборка начата 26.06.2014 10:47:25.
+Проект "E:\Diplom\AT-SHELL3\TempSolverWrapper\TempSolverWrapper.vcxproj" в узле 2 (целевые объекты Build).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /FUC:\Users\Zexir\Desktop\IM\ModelLib\bin\Debug\ModelLib.dll /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /FUE:\Diplom\TemporalReasonerX\TemporalReasonerX\bin\x86\Release\TemporalReasonerX.dll /analyze- /errorReport:prompt /clr:nostdlib ..\src\TempSolverWrapper\SolverWrapper.cpp
+  SolverWrapper.cpp
+e:\diplom\at-shell3\src\tempsolverwrapper\SolverWrapper.h(26): error C2470: SolverWrapper: выглядит как определение функции, но без списка параметров; пропускается вероятное тело функции
+..\src\TempSolverWrapper\SolverWrapper.cpp(16): error C2653: SolverWrapper: не является именем класса или пространства имен
+..\src\TempSolverWrapper\SolverWrapper.cpp(17): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+..\src\TempSolverWrapper\SolverWrapper.cpp(18): error C3861: createManagedInstances: идентификатор не найден
+..\src\TempSolverWrapper\SolverWrapper.cpp(19): warning C4508: SolverWrapper: функция должна возвращать значение; предполагается возвращаемый тип "void"
+..\src\TempSolverWrapper\SolverWrapper.cpp(21): error C2653: SolverWrapper: не является именем класса или пространства имен
+..\src\TempSolverWrapper\SolverWrapper.cpp(21): fatal error C1903: не удается восстановить после предыдущих ошибок; остановка компиляции
+Построение проекта "E:\Diplom\AT-SHELL3\TempSolverWrapper\TempSolverWrapper.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+СБОЙ сборки.
+
+Затраченное время: 00:00:06.38

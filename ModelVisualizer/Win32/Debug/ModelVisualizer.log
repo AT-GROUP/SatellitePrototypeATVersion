@@ -1,0 +1,29 @@
+﻿Сборка начата 26.06.2014 13:25:04.
+Проект "E:\Diplom\AT-SHELL3\ModelVisualizer\ModelVisualizer.vcxproj" в узле 2 (целевые объекты Build).
+CustomBuild:
+  Moc'ing ModelVisualizer.h...
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I"C:\Users\Zexir\Desktop\qwt-6.1.0\qwt-6.1.0\src" /I. /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtCore /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtWidgets /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D "INTEROPBRIDGE_API=__declspec(dllexport)" /D MODEL_LIB /D QT_LIB /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\ModelVisualizer\ModelVisualizer.cpp GeneratedFiles\Debug\moc_ModelVisualizer.cpp
+  ModelVisualizer.cpp
+  moc_ModelVisualizer.cpp
+  Создание кода...
+e:\diplom\at-shell3\src\modelvisualizer\modelvisualizer.cpp(181): warning C4715: ModelVisualizer::parseFacts: значение возвращается не при всех путях выполнения
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib /LIBPATH:"C:\Users\Zexir\Desktop\qwt-6.1.0\build-qwt-Desktop_Qt_5_2_1_MSVC2012_32bit-Release\src\debug" qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.lib" /MACHINE:X86 /SAFESEH /DLL Win32\Debug\InfoTableModel.obj
+  Win32\Debug\ModelVisualizer.obj
+  Win32\Debug\QSatelliteItem.obj
+  Win32\Debug\QStationItem.obj
+  Win32\Debug\moc_GraphsWindow.obj
+  Win32\Debug\moc_InfoTableModel.obj
+  Win32\Debug\moc_ModelVisualizer.obj
+  Win32\Debug\moc_QSatelliteItem.obj
+  Win32\Debug\moc_QStationItem.obj
+  Win32\Debug\qrc_Pictures.obj
+  Win32\Debug\GraphsWindow.obj
+     Создается библиотека E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.lib и объект E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.exp
+  ModelVisualizer.vcxproj -> E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.dll
+Построение проекта "E:\Diplom\AT-SHELL3\ModelVisualizer\ModelVisualizer.vcxproj" завершено (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:12.43

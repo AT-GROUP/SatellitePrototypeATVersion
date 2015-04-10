@@ -1,0 +1,1121 @@
+﻿Сборка начата 26.06.2014 13:26:06.
+Проект "E:\Diplom\AT-SHELL3\ATDynamicPrototype.vcxproj" в узле 2 (целевые объекты Build).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtCore /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtOpenGL /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D "INTEROPBRIDGE_API=__declspec(dllimport)" /D "TEMP_SOLVER_API=__declspec(dllexport)" /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\ATDynamicPrototype\ATDynamicIESApp.cpp
+  ATDynamicIESApp.cpp
+e:\diplom\at-shell3\src\atdynamicprototype\ATDynamicIESApp.h(8): warning C4005: TEMP_SOLVER_API: изменение макроопределения
+          аргументы командной строки:  см. предыдущее определение "TEMP_SOLVER_API"
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Diplom\AT-SHELL3\Win32\Debug\\ATDynamicPrototype.exe" /VERBOSE /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib /LIBPATH:"E:\Diplom\AT-SHELL3\Win32\Debug\\" qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib SolverWrapper.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Diplom\AT-SHELL3\Win32\Debug\ATDynamicPrototype.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Diplom\AT-SHELL3\Win32\Debug\ATDynamicPrototype.lib" /MACHINE:X86 /SAFESEH Win32\Debug\moc_ATDynamicIESApp.obj
+  Win32\Debug\main.obj
+  Win32\Debug\ATDynamicIESApp.obj
+  "E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.lib"
+  
+  Запуск 1-го прохода
+  Обработан параметр /DEFAULTLIB:msvcprtd
+  Обработан параметр /DEFAULTLIB:MSVCRTD
+  Обработан параметр /DEFAULTLIB:OLDNAMES
+  
+  Поиск библиотек
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\qtmaind.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Cored.lib:
+        Найден "__declspec(dllimport) void __cdecl qt_assert(char const *,char const *,int)" (__imp_?qt_assert@@YAXPBD0H@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: struct QMetaObject * __thiscall QObjectData::dynamicMetaObject(void)const " (__imp_?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) char const * __cdecl qFlagLocation(char const *)" (__imp_?qFlagLocation@@YAPBDPBD@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: __thiscall QMetaObject::Connection::~Connection(void)" (__imp_??1Connection@QMetaObject@@QAE@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: static class QMetaObject::Connection __cdecl QObject::connect(class QObject const *,char const *,class QObject const *,char const *,enum Qt::ConnectionType)" (__imp_?connect@QObject@@SA?AVConnection@QMetaObject@@PBV1@PBD01W4ConnectionType@Qt@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: __thiscall QTimer::QTimer(class QObject *)" (__imp_??0QTimer@@QAE@PAVQObject@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: virtual __thiscall QTimer::~QTimer(void)" (__imp_??1QTimer@@UAE@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: void __thiscall QTimer::start(int)" (__imp_?start@QTimer@@QAEXH@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: void __thiscall QTimer::stop(void)" (__imp_?stop@QTimer@@QAEXXZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "protected: virtual void __thiscall QObject::childEvent(class QChildEvent *)" (?childEvent@QObject@@MAEXPAVQChildEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "protected: virtual void __thiscall QObject::connectNotify(class QMetaMethod const &)" (?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "protected: virtual void __thiscall QObject::customEvent(class QEvent *)" (?customEvent@QObject@@MAEXPAVQEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "protected: virtual void __thiscall QObject::disconnectNotify(class QMetaMethod const &)" (?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "public: virtual bool __thiscall QObject::event(class QEvent *)" (?event@QObject@@UAE_NPAVQEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "public: virtual bool __thiscall QObject::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "public: virtual struct QMetaObject const * __thiscall QTimer::metaObject(void)const " (?metaObject@QTimer@@UBEPBUQMetaObject@@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "public: virtual int __thiscall QTimer::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QTimer@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "public: virtual void * __thiscall QTimer::qt_metacast(char const *)" (?qt_metacast@QTimer@@UAEPAXPBD@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "protected: virtual void __thiscall QObject::timerEvent(class QTimerEvent *)" (?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "protected: virtual void __thiscall QTimer::timerEvent(class QTimerEvent *)" (?timerEvent@QTimer@@MAEXPAVQTimerEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден __IMPORT_DESCRIPTOR_Qt5Cored
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден __NULL_IMPORT_DESCRIPTOR
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден Qt5Cored_NULL_THUNK_DATA
+          Имеются ссылки в Qt5Cored.lib(Qt5Cored.dll)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Guid.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5OpenGLd.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Widgetsd.lib:
+        Найден "__declspec(dllimport) public: virtual void * __thiscall QApplication::qt_metacast(char const *)" (__imp_?qt_metacast@QApplication@@UAEPAXPBD@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "__declspec(dllimport) public: virtual int __thiscall QApplication::qt_metacall(enum QMetaObject::Call,int,void * *)" (__imp_?qt_metacall@QApplication@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "__declspec(dllimport) public: static struct QMetaObject const QApplication::staticMetaObject" (__imp_?staticMetaObject@QApplication@@2UQMetaObject@@B)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "__declspec(dllimport) public: static int __cdecl QApplication::exec(void)" (__imp_?exec@QApplication@@SAHXZ)
+          Имеются ссылки в main.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "__declspec(dllimport) public: void __thiscall QWidget::show(void)" (__imp_?show@QWidget@@QAEXXZ)
+          Имеются ссылки в main.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "__declspec(dllimport) public: __thiscall QApplication::QApplication(int &,char * *,int)" (__imp_??0QApplication@@QAE@AAHPAPADH@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "__declspec(dllimport) public: virtual __thiscall QApplication::~QApplication(void)" (__imp_??1QApplication@@UAE@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::actionEvent(class QActionEvent *)" (?actionEvent@QWidget@@MAEXPAVQActionEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::changeEvent(class QEvent *)" (?changeEvent@QWidget@@MAEXPAVQEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::closeEvent(class QCloseEvent *)" (?closeEvent@QWidget@@MAEXPAVQCloseEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual bool __thiscall QApplication::compressEvent(class QEvent *,class QObject *,class QPostEventList *)" (?compressEvent@QApplication@@MAE_NPAVQEvent@@PAVQObject@@PAVQPostEventList@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QWidget@@MAEXPAVQContextMenuEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "public: virtual int __thiscall QWidget::devType(void)const " (?devType@QWidget@@UBEHXZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QWidget@@MAEXPAVQDragEnterEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QWidget@@MAEXPAVQDragLeaveEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QWidget@@MAEXPAVQDragMoveEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::dropEvent(class QDropEvent *)" (?dropEvent@QWidget@@MAEXPAVQDropEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::enterEvent(class QEvent *)" (?enterEvent@QWidget@@MAEXPAVQEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual bool __thiscall QApplication::event(class QEvent *)" (?event@QApplication@@MAE_NPAVQEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual bool __thiscall QWidget::event(class QEvent *)" (?event@QWidget@@MAE_NPAVQEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::focusInEvent(class QFocusEvent *)" (?focusInEvent@QWidget@@MAEXPAVQFocusEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual bool __thiscall QWidget::focusNextPrevChild(bool)" (?focusNextPrevChild@QWidget@@MAE_N_N@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QWidget@@MAEXPAVQFocusEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "public: virtual bool __thiscall QWidget::hasHeightForWidth(void)const " (?hasHeightForWidth@QWidget@@UBE_NXZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "public: virtual int __thiscall QWidget::heightForWidth(int)const " (?heightForWidth@QWidget@@UBEHH@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::hideEvent(class QHideEvent *)" (?hideEvent@QWidget@@MAEXPAVQHideEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::initPainter(class QPainter *)const " (?initPainter@QWidget@@MBEXPAVQPainter@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QWidget@@MAEXPAVQInputMethodEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "public: virtual class QVariant __thiscall QWidget::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QWidget@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QWidget@@MAEXPAVQKeyEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QWidget@@MAEXPAVQKeyEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::leaveEvent(class QEvent *)" (?leaveEvent@QWidget@@MAEXPAVQEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual int __thiscall QWidget::metric(enum QPaintDevice::PaintDeviceMetric)const " (?metric@QWidget@@MBEHW4PaintDeviceMetric@QPaintDevice@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "public: virtual class QSize __thiscall QWidget::minimumSizeHint(void)const " (?minimumSizeHint@QWidget@@UBE?AVQSize@@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::moveEvent(class QMoveEvent *)" (?moveEvent@QWidget@@MAEXPAVQMoveEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual bool __thiscall QWidget::nativeEvent(class QByteArray const &,void *,long *)" (?nativeEvent@QWidget@@MAE_NABVQByteArray@@PAXPAJ@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "public: virtual bool __thiscall QApplication::notify(class QObject *,class QEvent *)" (?notify@QApplication@@UAE_NPAVQObject@@PAVQEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "public: virtual class QPaintEngine * __thiscall QWidget::paintEngine(void)const " (?paintEngine@QWidget@@UBEPAVQPaintEngine@@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::paintEvent(class QPaintEvent *)" (?paintEvent@QWidget@@MAEXPAVQPaintEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual class QPaintDevice * __thiscall QWidget::redirected(class QPoint *)const " (?redirected@QWidget@@MBEPAVQPaintDevice@@PAVQPoint@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::resizeEvent(class QResizeEvent *)" (?resizeEvent@QWidget@@MAEXPAVQResizeEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "public: virtual void __thiscall QWidget::setVisible(bool)" (?setVisible@QWidget@@UAEX_N@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual class QPainter * __thiscall QWidget::sharedPainter(void)const " (?sharedPainter@QWidget@@MBEPAVQPainter@@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::showEvent(class QShowEvent *)" (?showEvent@QWidget@@MAEXPAVQShowEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "public: virtual class QSize __thiscall QWidget::sizeHint(void)const " (?sizeHint@QWidget@@UBE?AVQSize@@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден "protected: virtual void __thiscall QWidget::tabletEvent(class QTabletEvent *)" (?tabletEvent@QWidget@@MAEXPAVQTabletEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден __IMPORT_DESCRIPTOR_Qt5Widgetsd
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+        Найден Qt5Widgetsd_NULL_THUNK_DATA
+          Имеются ссылки в Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+          Загружен Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+      Поиск E:\Diplom\AT-SHELL3\Win32\Debug\\SolverWrapper.lib:
+        Найден "__declspec(dllimport) public: __thiscall SolverWrapper::SolverWrapper(void)" (__imp_??0SolverWrapper@@QAE@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен SolverWrapper.lib(SolverWrapper.dll)
+        Найден "__declspec(dllimport) public: void __thiscall SolverWrapper::processModelTact(void)" (__imp_?processModelTact@SolverWrapper@@QAEXXZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен SolverWrapper.lib(SolverWrapper.dll)
+        Найден "__declspec(dllimport) public: void __thiscall SolverWrapper::processSolversTact(void)" (__imp_?processSolversTact@SolverWrapper@@QAEXXZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен SolverWrapper.lib(SolverWrapper.dll)
+        Найден "__declspec(dllimport) public: void __thiscall SolverWrapper::configurate(void)" (__imp_?configurate@SolverWrapper@@QAEXXZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен SolverWrapper.lib(SolverWrapper.dll)
+        Найден __IMPORT_DESCRIPTOR_SolverWrapper
+          Имеются ссылки в SolverWrapper.lib(SolverWrapper.dll)
+          Имеются ссылки в SolverWrapper.lib(SolverWrapper.dll)
+          Имеются ссылки в SolverWrapper.lib(SolverWrapper.dll)
+          Имеются ссылки в SolverWrapper.lib(SolverWrapper.dll)
+          Загружен SolverWrapper.lib(SolverWrapper.dll)
+        Найден SolverWrapper_NULL_THUNK_DATA
+          Имеются ссылки в SolverWrapper.lib(SolverWrapper.dll)
+          Загружен SolverWrapper.lib(SolverWrapper.dll)
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\kernel32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\winspool.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\comdlg32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\advapi32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\shell32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\ole32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\oleaut32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\uuid.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbc32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbccp32.lib:
+      Поиск E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.lib:
+        Найден "__declspec(dllimport) public: __thiscall ModelVisualizer::ModelVisualizer(class QWidget *)" (__imp_??0ModelVisualizer@@QAE@PAVQWidget@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен ModelVisualizer.lib(ModelVisualizer.dll)
+        Найден "__declspec(dllimport) public: virtual __thiscall ModelVisualizer::~ModelVisualizer(void)" (__imp_??1ModelVisualizer@@UAE@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен ModelVisualizer.lib(ModelVisualizer.dll)
+        Найден "__declspec(dllimport) public: void __thiscall ModelVisualizer::updateFromModelFile(void)" (__imp_?updateFromModelFile@ModelVisualizer@@QAEXXZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен ModelVisualizer.lib(ModelVisualizer.dll)
+        Найден "public: virtual struct QMetaObject const * __thiscall ModelVisualizer::metaObject(void)const " (?metaObject@ModelVisualizer@@UBEPBUQMetaObject@@XZ)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен ModelVisualizer.lib(ModelVisualizer.dll)
+        Найден "public: virtual int __thiscall ModelVisualizer::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@ModelVisualizer@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен ModelVisualizer.lib(ModelVisualizer.dll)
+        Найден "public: virtual void * __thiscall ModelVisualizer::qt_metacast(char const *)" (?qt_metacast@ModelVisualizer@@UAEPAXPBD@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен ModelVisualizer.lib(ModelVisualizer.dll)
+        Найден "protected: virtual void __thiscall ModelVisualizer::wheelEvent(class QWheelEvent *)" (?wheelEvent@ModelVisualizer@@MAEXPAVQWheelEvent@@@Z)
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен ModelVisualizer.lib(ModelVisualizer.dll)
+        Найден __IMPORT_DESCRIPTOR_ModelVisualizer
+          Имеются ссылки в ModelVisualizer.lib(ModelVisualizer.dll)
+          Имеются ссылки в ModelVisualizer.lib(ModelVisualizer.dll)
+          Имеются ссылки в ModelVisualizer.lib(ModelVisualizer.dll)
+          Имеются ссылки в ModelVisualizer.lib(ModelVisualizer.dll)
+          Имеются ссылки в ModelVisualizer.lib(ModelVisualizer.dll)
+          Имеются ссылки в ModelVisualizer.lib(ModelVisualizer.dll)
+          Имеются ссылки в ModelVisualizer.lib(ModelVisualizer.dll)
+          Загружен ModelVisualizer.lib(ModelVisualizer.dll)
+        Найден ModelVisualizer_NULL_THUNK_DATA
+          Имеются ссылки в ModelVisualizer.lib(ModelVisualizer.dll)
+          Загружен ModelVisualizer.lib(ModelVisualizer.dll)
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+        Найден "__declspec(dllimport) void __cdecl std::_Debug_message(unsigned short const *,unsigned short const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPBG0I@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден "__declspec(dllimport) public: __thiscall std::locale::id::id(unsigned int)" (__imp_??0id@locale@std@@QAE@I@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден __IMPORT_DESCRIPTOR_MSVCP110D
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+        Найден MSVCP110D_NULL_THUNK_DATA
+          Имеются ссылки в msvcprtd.lib(MSVCP110D.dll)
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\MSVCRTD.lib:
+        Найден __purecall
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден _atexit
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(atonexit.obj)
+        Найден __imp__memmove
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден _memcpy
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден _strcmp
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден _strlen
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден @__security_check_cookie@4
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(secchk.obj)
+        Найден __CxxThrowException@8
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___CxxFrameHandler3
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден "const type_info::`vftable'" (??_7type_info@@6B@)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Загружен MSVCRTD.lib(ti_inst.obj)
+        Найден ___security_cookie
+          Имеются ссылки в MSVCRTD.lib(secchk.obj)
+          Имеются ссылки в moc_ATDynamicIESApp.obj
+          Имеются ссылки в main.obj
+          Имеются ссылки в ATDynamicIESApp.obj
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Загружен MSVCRTD.lib(gs_cookie.obj)
+        Найден _WinMainCRTStartup
+          Загружен MSVCRTD.lib(crtexew.obj)
+        Найден __IMPORT_DESCRIPTOR_MSVCR110D
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __lock
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __unlock
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __imp___CrtDbgReportW
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __imp___calloc_dbg
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___dllonexit
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __except_handler4
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(chandler4gs.obj)
+        Найден __imp___onexit
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___report_gsfailure
+          Имеются ссылки в MSVCRTD.lib(secchk.obj)
+          Загружен MSVCRTD.lib(gs_report.obj)
+        Найден "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+          Имеются ссылки в MSVCRTD.lib(ti_inst.obj)
+          Загружен MSVCRTD.lib(ehvecdtr.obj)
+        Найден "public: virtual __thiscall type_info::~type_info(void)" (??1type_info@@UAE@XZ)
+          Имеются ссылки в MSVCRTD.lib(ti_inst.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___CxxSetUnhandledExceptionFilter
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(unhandld.obj)
+        Найден __XcptFilter
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___crtGetShowWindowMode
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __amsg_exit
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __setargv
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(dllargv.obj)
+        Найден __imp____getmainargs
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __imp____set_app_type
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __imp___CrtSetCheckCount
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __IsNonwritableInCurrentImage
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(pesect.obj)
+        Найден __imp__exit
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __imp___exit
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __imp___cexit
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___security_init_cookie
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(gs_support.obj)
+        Найден __matherr
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(merr.obj)
+        Найден __imp___ismbblead
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __RTC_Initialize
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(initsect.obj)
+        Найден __imp___configthreadlocale
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __setdefaultprecision
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(fp8.obj)
+        Найден __imp____setusermatherr
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __initterm_e
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __initterm
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___globallocalestatus
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(xthdloc.obj)
+        Найден __commode
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(xncommod.obj)
+        Найден __dowildcard
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(wildcard.obj)
+        Найден __newmode
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(_newmode.obj)
+        Найден __imp___acmdln
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___native_startup_state
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(natstart.obj)
+        Найден __fmode
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(xtxtmode.obj)
+        Найден __imp___fmode
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __imp___commode
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___xi_a
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен MSVCRTD.lib(cinitexe.obj)
+  Обработан параметр /DEFAULTLIB:kernel32.lib
+   Обработан /DISALLOWLIB:libcmt.lib
+   Обработан /DISALLOWLIB:libcmtd.lib
+   Обработан /DISALLOWLIB:msvcrt.lib
+        Найден MSVCR110D_NULL_THUNK_DATA
+          Имеются ссылки в MSVCRTD.lib(MSVCR110D.dll)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __except_handler4_common
+          Имеются ссылки в MSVCRTD.lib(chandler4gs.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __crt_debugger_hook
+          Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___crtUnhandledException
+          Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___crtTerminateProcess
+          Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден "void __cdecl terminate(void)" (?terminate@@YAXXZ)
+          Имеются ссылки в MSVCRTD.lib(ehvecdtr.obj)
+          Имеются ссылки в MSVCRTD.lib(unhandld.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден ___crtSetUnhandledExceptionFilter
+          Имеются ссылки в MSVCRTD.lib(unhandld.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __invoke_watson
+          Имеются ссылки в MSVCRTD.lib(fp8.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+        Найден __controlfp_s
+          Имеются ссылки в MSVCRTD.lib(fp8.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\qtmaind.lib:
+        Найден _WinMain@16
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен qtmaind.lib(qtmain_win.obj)
+  Обработан параметр /DEFAULTLIB:uuid.lib
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Cored.lib:
+        Найден "__declspec(dllimport) void __cdecl qt_assert_x(char const *,char const *,char const *,int)" (__imp_?qt_assert_x@@YAXPBD00H@Z)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) void __cdecl qt_check_pointer(char const *,int)" (__imp_?qt_check_pointer@@YAXPBDH@Z)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: void * __thiscall QArrayData::data(void)" (__imp_?data@QArrayData@@QAEPAXXZ)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: static struct QArrayData * __cdecl QArrayData::allocate(unsigned int,unsigned int,unsigned int,class QFlags<enum QArrayData::AllocationOption>)" (__imp_?allocate@QArrayData@@SAPAU1@IIIV?$QFlags@W4AllocationOption@QArrayData@@@@@Z)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: static void __cdecl QArrayData::deallocate(struct QArrayData *,unsigned int,unsigned int)" (__imp_?deallocate@QArrayData@@SAXPAU1@II@Z)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: static struct QArrayData * __cdecl QArrayData::sharedNull(void)" (__imp_?sharedNull@QArrayData@@SAPAU1@XZ)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: __thiscall QByteArray::~QByteArray(void)" (__imp_??1QByteArray@@QAE@XZ)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: char * __thiscall QByteArray::data(void)" (__imp_?data@QByteArray@@QAEPADXZ)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: __thiscall QString::~QString(void)" (__imp_??1QString@@QAE@XZ)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: class QByteArray __thiscall QString::toLocal8Bit(void)const " (__imp_?toLocal8Bit@QString@@QBE?AVQByteArray@@XZ)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "__declspec(dllimport) public: static class QString __cdecl QString::fromWCharArray(wchar_t const *,int)" (__imp_?fromWCharArray@QString@@SA?AV1@PB_WH@Z)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+        Найден "void __cdecl qWinMain(struct HINSTANCE__ *,struct HINSTANCE__ *,char *,int,int &,class QVector<char *> &)" (?qWinMain@@YAXPAUHINSTANCE__@@0PADHAAHAAV?$QVector@PAD@@@Z)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен Qt5Cored.lib(Qt5Cored.dll)
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Guid.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5OpenGLd.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Widgetsd.lib:
+      Поиск E:\Diplom\AT-SHELL3\Win32\Debug\\SolverWrapper.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\kernel32.lib:
+        Найден __imp__EncodePointer@4
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Имеются ссылки в MSVCRTD.lib(crtexew.obj)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден __imp__DecodePointer@4
+          Имеются ссылки в MSVCRTD.lib(atonexit.obj)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден __imp__IsDebuggerPresent@0
+          Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден _IsProcessorFeaturePresent@4
+          Имеются ссылки в MSVCRTD.lib(gs_report.obj)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден __imp__QueryPerformanceCounter@4
+          Имеются ссылки в MSVCRTD.lib(gs_support.obj)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден __imp__GetCurrentThreadId@0
+          Имеются ссылки в MSVCRTD.lib(gs_support.obj)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден __imp__GetSystemTimeAsFileTime@4
+          Имеются ссылки в MSVCRTD.lib(gs_support.obj)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден __imp__GetTickCount64@0
+          Имеются ссылки в MSVCRTD.lib(gs_support.obj)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден __imp__GetCommandLineW@0
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден __IMPORT_DESCRIPTOR_KERNEL32
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Загружен kernel32.lib(KERNEL32.dll)
+        Найден KERNEL32_NULL_THUNK_DATA
+          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+          Загружен kernel32.lib(KERNEL32.dll)
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\winspool.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\comdlg32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\advapi32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\shell32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\ole32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\oleaut32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\uuid.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbc32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbccp32.lib:
+      Поиск E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.lib:
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+        Найден "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z)
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен msvcprtd.lib(MSVCP110D.dll)
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\MSVCRTD.lib:
+        Найден _memset
+          Имеются ссылки в qtmaind.lib(qtmain_win.obj)
+          Загружен MSVCRTD.lib(MSVCR110D.dll)
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\qtmaind.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Cored.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Guid.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5OpenGLd.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Widgetsd.lib:
+      Поиск E:\Diplom\AT-SHELL3\Win32\Debug\\SolverWrapper.lib:
+  
+  Поиск библиотек завершен
+  
+  1-ый проход завершен
+  
+  
+  Поиск библиотек
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\qtmaind.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Cored.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Guid.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5OpenGLd.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Widgetsd.lib:
+      Поиск E:\Diplom\AT-SHELL3\Win32\Debug\\SolverWrapper.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\kernel32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\winspool.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\comdlg32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\advapi32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\shell32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\ole32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\oleaut32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\uuid.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbc32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbccp32.lib:
+      Поиск E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.lib:
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\MSVCRTD.lib:
+        Найден __load_config_used
+          Загружен MSVCRTD.lib(loadcfg.obj)
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\qtmaind.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Cored.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Guid.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5OpenGLd.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\glu32.lib:
+      Поиск C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Widgetsd.lib:
+      Поиск E:\Diplom\AT-SHELL3\Win32\Debug\\SolverWrapper.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\kernel32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\user32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\winspool.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\comdlg32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\advapi32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\shell32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\ole32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\oleaut32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\uuid.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbc32.lib:
+      Поиск C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbccp32.lib:
+      Поиск E:\Diplom\AT-SHELL3\Win32\Debug\ModelVisualizer.lib:
+      Поиск C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\msvcprtd.lib:
+  
+  Поиск библиотек завершен
+  
+  Вызов rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\Zexir\AppData\Local\Temp\lnk{B1B6C85C-2408-42F3-AB83-4694A6A69E99}.tmp"
+   "C:\Users\Zexir\AppData\Local\Temp\lnk{EB674350-F121-4A91-868A-7643F3234E8B}.tmp"
+  
+  Вызов cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\Zexir\AppData\Local\Temp\lnk{ABCFC7D4-6C31-46BB-A9A1-85635528160B}.tmp"
+   /readonly
+   "C:\Users\Zexir\AppData\Local\Temp\lnk{B1B6C85C-2408-42F3-AB83-4694A6A69E99}.tmp"
+  
+  Неиспользуемые библиотеки:
+    C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5Guid.lib
+    C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib\Qt5OpenGLd.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\opengl32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\glu32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\user32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\gdi32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\winspool.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\comdlg32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\advapi32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\shell32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\ole32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\oleaut32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\uuid.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbc32.lib
+    C:\Program Files\Windows Kits\8.0\lib\win8\um\x86\odbccp32.lib
+    C:\Program Files\Microsoft Visual Studio 11.0\VC\lib\OLDNAMES.lib
+  
+  Запуск 2-го прохода
+       * linker generated manifest res *
+       ATDynamicIESApp.obj
+       main.obj
+       moc_ATDynamicIESApp.obj
+       qtmaind.lib(qtmain_win.obj)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Cored.lib(Qt5Cored.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       Qt5Widgetsd.lib(Qt5Widgetsd.dll)
+       SolverWrapper.lib(SolverWrapper.dll)
+       SolverWrapper.lib(SolverWrapper.dll)
+       SolverWrapper.lib(SolverWrapper.dll)
+       SolverWrapper.lib(SolverWrapper.dll)
+       SolverWrapper.lib(SolverWrapper.dll)
+       SolverWrapper.lib(SolverWrapper.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       ModelVisualizer.lib(ModelVisualizer.dll)
+       ModelVisualizer.lib(ModelVisualizer.dll)
+       ModelVisualizer.lib(ModelVisualizer.dll)
+       ModelVisualizer.lib(ModelVisualizer.dll)
+       ModelVisualizer.lib(ModelVisualizer.dll)
+       ModelVisualizer.lib(ModelVisualizer.dll)
+       ModelVisualizer.lib(ModelVisualizer.dll)
+       ModelVisualizer.lib(ModelVisualizer.dll)
+       ModelVisualizer.lib(ModelVisualizer.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       msvcprtd.lib(MSVCP110D.dll)
+       MSVCRTD.lib(ehvecdtr.obj)
+       MSVCRTD.lib(unhandld.obj)
+       MSVCRTD.lib(atonexit.obj)
+       MSVCRTD.lib(cinitexe.obj)
+       MSVCRTD.lib(crtexew.obj)
+       MSVCRTD.lib(dllargv.obj)
+       MSVCRTD.lib(gs_cookie.obj)
+       MSVCRTD.lib(gs_report.obj)
+       MSVCRTD.lib(gs_support.obj)
+       MSVCRTD.lib(merr.obj)
+       MSVCRTD.lib(natstart.obj)
+       MSVCRTD.lib(pesect.obj)
+       MSVCRTD.lib(ti_inst.obj)
+       MSVCRTD.lib(wildcard.obj)
+       MSVCRTD.lib(chandler4gs.obj)
+       MSVCRTD.lib(fp8.obj)
+       MSVCRTD.lib(loadcfg.obj)
+       MSVCRTD.lib(secchk.obj)
+       MSVCRTD.lib(_newmode.obj)
+       MSVCRTD.lib(xncommod.obj)
+       MSVCRTD.lib(xtxtmode.obj)
+       MSVCRTD.lib(xthdloc.obj)
+       MSVCRTD.lib(initsect.obj)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+       MSVCRTD.lib(MSVCR110D.dll)
+  2-ой проход завершен
+  Microsoft (R) Windows (R) Resource Compiler Version 6.2.9200.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\Zexir\AppData\Local\Temp\lnk{B1B6C85C-2408-42F3-AB83-4694A6A69E99}.tmp
+  
+  Using codepage 1251 as default
+  
+  C:\Users\Zexir\AppData\Local\Temp\lnk{EB674350-F121-4A91-868A-7643F3234E8B}.tmp.
+  Writing 24:1,	lang:0x409,	size 381
+  ╩юэтхЁЄхЁ ЁхёєЁёют Windows т юс·хъЄ√ (Microsoft (R)), тхЁёш  11.00.50727.1
+  (C) ╩юЁяюЁрЎш  ╠рщъЁюёюЇЄ (Microsoft Corp.). ┬ёх яЁртр чр∙ш∙хэ√.
+  
+  фюсртыхэшх ЁхёєЁёр. Єшя: MANIFEST, шь : 1,  ч√ъ: 0x0409, Їыруш: 0x30, ЁрчьхЁ: 381
+  ATDynamicPrototype.vcxproj -> E:\Diplom\AT-SHELL3\Win32\Debug\ATDynamicPrototype.exe
+Построение проекта "E:\Diplom\AT-SHELL3\ATDynamicPrototype.vcxproj" завершено (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.46

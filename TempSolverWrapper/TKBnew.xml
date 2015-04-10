@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<knowledge-base creation-date="11.04.2013 23:59:11">
+    <problem-info/>
+    <types>
+        <type id="ТИП1" meta="number" desc="числовойТип">
+            <from>0</from>
+            <to>0</to>
+        </type>
+        <type id="ТИП2" meta="string" desc="цветТип">
+            <value>синий</value>
+            <value>желтый</value>
+        </type>
+        <type id="ТИП3" meta="number" desc="ценаТип">
+            <from>0</from>
+            <to>0</to>
+        </type>
+        <type id="ТИП4" meta="string" desc="заключениеТип">
+            <value>покупать</value>
+            <value>не покупать</value>
+            <value>неизвестно</value>
+        </type>
+        <type id="ТИП5" meta="string" desc="размер">
+            <value>большой</value>
+            <value>маленький</value>
+        </type>
+		<type id="ТИП6" meta="number" desc="ценаТип">
+            <from>0</from>
+            <to>100</to>
+        </type>
+    </types>
+    <classes>
+        <class id="КЛАСС1" desc="самолет">
+            <properties>
+                <property id="АТРИБУТ1" type="ТИП1" desc="скорость" source="question">
+                    <question>скорость</question>
+                </property>
+                <property id="АТРИБУТ2" type="ТИП3" desc="цена" source="question">
+                    <question>цена</question>
+                </property>
+                <property id="АТРИБУТ3" type="ТИП2" desc="цвет" source="question">
+                    <question>цвет</question>
+                </property>
+                <property id="АТРИБУТ4" type="ТИП4" desc="заключение" source="inferred"/>
+                <property id="АТРИБУТ5" type="ТИП5" desc="размер" source="question">
+                    <question>размер</question>
+                </property>
+				
+				<property id="Скорость_езды" type="ТИП6" desc="скорость" source="question">
+                    <question>скорость</question>
+                </property>
+				
+            </properties>
+        </class>
+        <class id="world" desc="Класс верхнего уровня, включающий в себя экземпляры других классов и общие правила">
+            <properties>
+                <property id="ОБЪЕКТ1" type="КЛАСС1" source="none" create="true" desc="экземпляр класса КЛАСС1"/>
+            </properties>
+            <rules>
+                <rule id="1" meta="simple" desc="22">
+                    <condition>
+                        <or>
+                            <EvRel Value="e">
+                                <Event Name = "E1"/>
+                                <Event Name = "E3"/>
+                            </EvRel>
+                            <eq>
+                                <ref id="БСМП_3">
+                                    <ref id="Скорость_езды"/>
+                                </ref>
+                                <value>60</value>
+                                <with belief="50" probability="100" accuracy="0"/>
+                            </eq>
+                        </or>
+                    </condition>
+                    <action>
+                        <assign>
+                            <ref id="ОБЪЕКТ1">
+                                <ref id="АТРИБУТ4"/>
+                            </ref>
+                            <value>покупать</value>
+                            <with belief="50" probability="100" accuracy="0"/>
+                        </assign>
+                    </action>
+                </rule>
+                <rule id="2" meta="simple" desc="33">
+                    <condition>
+                        <and>
+                            <eq>
+                                <ref id="ОБЪЕКТ1">
+                                    <ref id="АТРИБУТ5"/>
+                                </ref>
+                                <value>маленький</value>
+                                <with belief="50" probability="100" accuracy="0"/>
+                            </eq>
+                            <eq>
+                                <ref id="ОБЪЕКТ1">
+                                    <ref id="АТРИБУТ3"/>
+                                </ref>
+                                <value>желтый</value>
+                                <with belief="50" probability="100" accuracy="0"/>
+                            </eq>
+                        </and>
+                    </condition>
+                    <action>
+                        <assign>
+                            <ref id="ОБЪЕКТ1">
+                                <ref id="АТРИБУТ4"/>
+                            </ref>
+                            <value>не покупать</value>
+                            <with belief="50" probability="100" accuracy="0"/>
+                        </assign>
+                    </action>
+                </rule>
+                <rule id="3" meta="simple" desc="55">
+                    <condition>
+                        <gt>
+                            <ref id="ОБЪЕКТ1">
+                                <ref id="АТРИБУТ1"/>
+                            </ref>
+                            <value>10</value>
+                            <with belief="50" probability="100" accuracy="0"/>
+                        </gt>
+                    </condition>
+                    <action>
+                        <assign>
+                            <ref id="ОБЪЕКТ1">
+                                <ref id="АТРИБУТ4"/>
+                            </ref>
+                            <value>неизвестно</value>
+                            <with belief="50" probability="100" accuracy="0"/>
+                        </assign>
+                    </action>
+                </rule>
+            </rules>
+            <methods/>
+        </class>
+    </classes>
+</knowledge-base>

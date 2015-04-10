@@ -1,0 +1,17 @@
+﻿Сборка начата 26.06.2014 13:24:54.
+Проект "E:\Diplom\AT-SHELL3\TempSolverWrapper\TempSolverWrapper.vcxproj" в узле 2 (целевые объекты Build).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D WRAPPER_LIB /D "TEMP_SOLVER_API=__declspec(dllexport)" /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /TP /FUC:\Users\Zexir\Desktop\IM\ModelLib\bin\Debug\ModelLib.dll /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /FUE:\Diplom\TemporalReasonerX\TemporalReasonerX\bin\x86\Release\TemporalReasonerX.dll /analyze- /errorReport:prompt /clr:nostdlib ..\src\TempSolverWrapper\SolverWrapper.cpp
+  SolverWrapper.cpp
+..\src\TempSolverWrapper\SolverWrapper.cpp(36): warning C4129: T: неизвестная escape-последовательность
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Diplom\AT-SHELL3\Win32\Debug\SolverWrapper.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Diplom\AT-SHELL3\Win32\Debug\SolverWrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Win32\Debug\AssemblyInfo.obj
+  Win32\Debug\SolverWrapper.obj
+  "Win32\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     Создается библиотека E:\Diplom\AT-SHELL3\Win32\Debug\SolverWrapper.lib и объект E:\Diplom\AT-SHELL3\Win32\Debug\SolverWrapper.exp
+  TempSolverWrapper.vcxproj -> E:\Diplom\AT-SHELL3\Win32\Debug\SolverWrapper.dll
+Построение проекта "E:\Diplom\AT-SHELL3\TempSolverWrapper\TempSolverWrapper.vcxproj" завершено (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:10.12

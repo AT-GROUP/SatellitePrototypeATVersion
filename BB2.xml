@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bb>
+  <wm>
+    <facts>
+      <fact AttrPath="Intelsat.name" asked="true" Value="Intelsat" Belief="100" />
+      <fact AttrPath="Intelsat.maxBw" asked="true" Value="2958" Belief="100" />
+      <fact AttrPath="Intelsat.stationCount" asked="true" Value="3" Belief="100" />
+      <fact AttrPath="Intelsat.ipAddress" asked="true" Value="10.10.0.2" Belief="100" />
+      <fact AttrPath="Intelsat.avalBw" asked="true" Value="256" Belief="100" />
+      <fact AttrPath="Intelsat.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Yamal.name" asked="true" Value="Yamal" Belief="100" />
+      <fact AttrPath="Yamal.maxBw" asked="true" Value="1452" Belief="100" />
+      <fact AttrPath="Yamal.stationCount" asked="true" Value="4" Belief="100" />
+      <fact AttrPath="Yamal.ipAddress" asked="true" Value="10.10.0.3" Belief="100" />
+      <fact AttrPath="Yamal.avalBw" asked="true" Value="256" Belief="100" />
+      <fact AttrPath="Yamal.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="AM3.name" asked="true" Value="AM3" Belief="100" />
+      <fact AttrPath="AM3.maxBw" asked="true" Value="972" Belief="100" />
+      <fact AttrPath="AM3.stationCount" asked="true" Value="2" Belief="100" />
+      <fact AttrPath="AM3.ipAddress" asked="true" Value="10.10.0.4" Belief="100" />
+      <fact AttrPath="AM3.avalBw" asked="true" Value="256" Belief="100" />
+      <fact AttrPath="AM3.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station1.name" asked="true" Value="Station1" Belief="100" />
+      <fact AttrPath="Station1.bwNeeded" asked="true" Value="3" Belief="100" />
+      <fact AttrPath="Station1.bwInUse" asked="true" Value="3" Belief="100" />
+      <fact AttrPath="Station1.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station1.ipAddress" asked="true" Value="10.100.0.6" Belief="100" />
+      <fact AttrPath="Station1.satellite" asked="true" Value="Yamal" Belief="100" />
+      <fact AttrPath="Station2.name" asked="true" Value="Station2" Belief="100" />
+      <fact AttrPath="Station2.bwNeeded" asked="true" Value="4" Belief="100" />
+      <fact AttrPath="Station2.bwInUse" asked="true" Value="4" Belief="100" />
+      <fact AttrPath="Station2.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station2.ipAddress" asked="true" Value="10.100.0.7" Belief="100" />
+      <fact AttrPath="Station2.satellite" asked="true" Value="Yamal" Belief="100" />
+      <fact AttrPath="Station3.name" asked="true" Value="Station3" Belief="100" />
+      <fact AttrPath="Station3.bwNeeded" asked="true" Value="4" Belief="100" />
+      <fact AttrPath="Station3.bwInUse" asked="true" Value="4" Belief="100" />
+      <fact AttrPath="Station3.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station3.ipAddress" asked="true" Value="10.100.0.1" Belief="100" />
+      <fact AttrPath="Station3.satellite" asked="true" Value="Intelsat" Belief="100" />
+      <fact AttrPath="Station4.name" asked="true" Value="Station4" Belief="100" />
+      <fact AttrPath="Station4.bwNeeded" asked="true" Value="2" Belief="100" />
+      <fact AttrPath="Station4.bwInUse" asked="true" Value="2" Belief="100" />
+      <fact AttrPath="Station4.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station4.ipAddress" asked="true" Value="10.100.0.2" Belief="100" />
+      <fact AttrPath="Station4.satellite" asked="true" Value="Intelsat" Belief="100" />
+      <fact AttrPath="Station5.name" asked="true" Value="Station5" Belief="100" />
+      <fact AttrPath="Station5.bwNeeded" asked="true" Value="3" Belief="100" />
+      <fact AttrPath="Station5.bwInUse" asked="true" Value="3" Belief="100" />
+      <fact AttrPath="Station5.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station5.ipAddress" asked="true" Value="10.100.0.4" Belief="100" />
+      <fact AttrPath="Station5.satellite" asked="true" Value="Yamal" Belief="100" />
+      <fact AttrPath="Station6.name" asked="true" Value="Station6" Belief="100" />
+      <fact AttrPath="Station6.bwNeeded" asked="true" Value="3" Belief="100" />
+      <fact AttrPath="Station6.bwInUse" asked="true" Value="3" Belief="100" />
+      <fact AttrPath="Station6.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station6.ipAddress" asked="true" Value="10.100.0.3" Belief="100" />
+      <fact AttrPath="Station6.satellite" asked="true" Value="Intelsat" Belief="100" />
+      <fact AttrPath="Station7.name" asked="true" Value="Station7" Belief="100" />
+      <fact AttrPath="Station7.bwNeeded" asked="true" Value="4" Belief="100" />
+      <fact AttrPath="Station7.bwInUse" asked="true" Value="4" Belief="100" />
+      <fact AttrPath="Station7.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station7.ipAddress" asked="true" Value="10.100.0.5" Belief="100" />
+      <fact AttrPath="Station7.satellite" asked="true" Value="Yamal" Belief="100" />
+      <fact AttrPath="Station8.name" asked="true" Value="Station8" Belief="100" />
+      <fact AttrPath="Station8.bwNeeded" asked="true" Value="4" Belief="100" />
+      <fact AttrPath="Station8.bwInUse" asked="true" Value="4" Belief="100" />
+      <fact AttrPath="Station8.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station8.ipAddress" asked="true" Value="10.100.0.8" Belief="100" />
+      <fact AttrPath="Station8.satellite" asked="true" Value="AM3" Belief="100" />
+      <fact AttrPath="Station9.name" asked="true" Value="Station9" Belief="100" />
+      <fact AttrPath="Station9.bwNeeded" asked="true" Value="3" Belief="100" />
+      <fact AttrPath="Station9.bwInUse" asked="true" Value="3" Belief="100" />
+      <fact AttrPath="Station9.status" asked="true" Value="Online" Belief="100" />
+      <fact AttrPath="Station9.ipAddress" asked="true" Value="10.100.0.9" Belief="100" />
+      <fact AttrPath="Station9.satellite" asked="true" Value="AM3" Belief="100" />
+    </facts>
+    <rules>
+      <rule name="1" oznach="0" />
+    </rules>
+  </wm>
+  <explanations>
+    <initial-situation>
+      <setup Style="forward" Subdialogs="true" Authentic="false" />
+      <facts>
+        <fact AttrPath="Участок_дороги_1.Протяженность" asked="true" Value="0" Belief="100" />
+      </facts>
+    </initial-situation>
+    <trace>
+      <step>1</step>
+      <rule id="1" rate="0" then="true">
+        <object addr="$044A5A38" type="world" />
+        <condition>
+          <value>1</value>
+          <with belief="0" probability="0" />
+        </condition>
+      </rule>
+    </trace>
+  </explanations>
+</bb>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QSatelliteItem" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFQAAAAAEAAIAIgCAAAAAAAAAAAEAwBAAQAAAAQAAAA=</HashCode>
+      <FileName>E:\Diplom\AT-SHELL3\src\ModelVisualizer\QSatelliteItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QStationItem" Collapsed="true">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAQAEAAIAIgDAAAACECAAAAEAAAgAAAAAAAIAAA=</HashCode>
+      <FileName>E:\Diplom\AT-SHELL3\src\ModelVisualizer\QStationItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoTableModel">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAIAAAAAAAAAEAAAAAAAAAAQgAAAAAA=</HashCode>
+      <FileName>E:\Diplom\AT-SHELL3\src\ModelVisualizer\InfoTableModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelVisualizer">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAMABAAAAAAAAABgAAIAAAAAAAMAAEAAAAIEAACAoIA=</HashCode>
+      <FileName>E:\Diplom\AT-SHELL3\src\ModelVisualizer\ModelVisualizer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="qt_meta_stringdata_InfoTableModel_t" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\Debug\moc_InfoTableModel.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="qt_meta_stringdata_ModelVisualizer_t" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\Debug\moc_ModelVisualizer.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft Sans Serif" Size="8.25" />
+</ClassDiagram>
